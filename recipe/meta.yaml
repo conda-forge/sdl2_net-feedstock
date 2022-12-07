@@ -16,9 +16,7 @@ requirements:
     - python  # [win]
     - cmake  # [win]
     - toolchain
-    - sdl2
-
-  run:
+  host:
     - sdl2
 
 test:

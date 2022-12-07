@@ -13,9 +13,9 @@ build:
 
 requirements:
   build:
-    - python  # [win]
-    - cmake  # [win]
-    - toolchain
+    - {{ compiler('c') }}
+    - cmake
+    - ninja
   host:
     - sdl2
 

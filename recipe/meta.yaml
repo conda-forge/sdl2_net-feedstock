@@ -1,12 +1,12 @@
-{% set version = "2.0.1" %}
+{% set version = "2.2.0" %}
 
 package:
   name: sdl2_net
   version: {{ version }}
 
 source:
-  url:  https://www.libsdl.org/projects/SDL_net/release/SDL2_net-{{ version }}.tar.gz
-  sha256: 15ce8a7e5a23dafe8177c8df6e6c79b6749a03fff1e8196742d3571657609d21
+  url: https://github.com/libsdl-org/SDL_net/archive/refs/tags/release-{{ version }}.tar.gz
+  sha256: 08d741282c0c22b82ed134f09cd319803132289cae06fb47b5ada2752faf0493
 
 build:
   number: 0

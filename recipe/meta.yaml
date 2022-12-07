@@ -38,8 +38,8 @@ test:
 
 about:
   home: https://github.com/libsdl-org/SDL_net
-  license: ZLIB
-  license_file: COPYING.txt
+  license: Zlib
+  license_file: LICENSE.txt
   summary: A simple, cross-platform wrapper over TCP/IP sockets.
   doc_url: https://wiki.libsdl.org/SDL_net
   dev_url: https://github.com/libsdl-org/SDL_net

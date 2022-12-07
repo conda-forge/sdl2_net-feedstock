@@ -1,22 +1,15 @@
-{% set name = "SDL2_net" %}
 {% set version = "2.0.1" %}
-{% set sha256 = "15ce8a7e5a23dafe8177c8df6e6c79b6749a03fff1e8196742d3571657609d21" %}
 
 package:
-  name: {{ name|lower }}
+  name: sdl2_net
   version: {{ version }}
 
 source:
-  fn:  {{ name }}-{{ version }}.tar.gz
-  url:  https://www.libsdl.org/projects/SDL_net/release/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url:  https://www.libsdl.org/projects/SDL_net/release/SDL2_net-{{ version }}.tar.gz
+  sha256: 15ce8a7e5a23dafe8177c8df6e6c79b6749a03fff1e8196742d3571657609d21
 
 build:
   number: 0
-  features:
-    - vc9  # [win and py27]
-    - vc10  # [win and py34]
-    - vc14  # [win and py35]
 
 requirements:
   build:

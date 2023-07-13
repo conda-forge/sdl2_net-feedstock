@@ -1,11 +1,11 @@
-About sdl2_net
-==============
+About sdl2_net-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdl2_net-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/libsdl-org/SDL_net
 
 Package license: Zlib
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdl2_net-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple, cross-platform wrapper over TCP/IP sockets.
 
@@ -42,6 +42,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5503&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sdl2_net-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5503&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sdl2_net-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>

@@ -9,12 +9,13 @@ source:
   sha256: 08d741282c0c22b82ed134f09cd319803132289cae06fb47b5ada2752faf0493
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("sdl2_net", max_pin="x") }}
 
 requirements:
   build:
+    - gnuconfig  # [unix]
     - {{ compiler('c') }}
     - cmake
     - ninja

@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: sdl2_net
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/libsdl-org/SDL_net/archive/refs/tags/release-{{ version }}.tar.gz
-  sha256: 08d741282c0c22b82ed134f09cd319803132289cae06fb47b5ada2752faf0493
+  sha256: 0d26aa8c945644b39e1b3cd21b692ed1332eba2bdc623a383bfbc4b2be6e76d3
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage("sdl2_net", max_pin="x") }}
 
@@ -17,6 +17,7 @@ requirements:
   build:
     - gnuconfig  # [unix]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - cmake
     - ninja
   host:
